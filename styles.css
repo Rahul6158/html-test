@@ -1,0 +1,145 @@
+/* body{
+
+} */
+#bg{
+    background-image: url(bg.jpeg);
+    background-position:100%;
+
+    
+}
+nav{
+    /* border: 2px solid black; */
+    display :flex;
+    padding: 20px;
+    /* border-bottom: 2px solid black; */
+}
+#links{
+    color: lightgreen;
+    display:flex;
+    justify-content: right;
+    width: 1000px;
+    margin-left: 800px;
+}
+
+a{
+    padding: 0px 70px;
+    font-size: x-large;
+    margin-top: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: aquamarine;
+}
+#head-nav{
+    
+    color: white;
+    margin: 0px 5px;
+    font-family: cursive;
+}
+
+b{
+    font-family: fantasy;
+    font-weight: 3%;
+}
+#btn{
+    display: flex;
+    justify-content: left;
+    
+}
+button{
+background-color:rgb(3, 150, 195);
+color: aliceblue;
+ padding-left:30px;
+ padding-right: 30px;
+ padding-top: 10px;
+ padding-bottom:15px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: larger;
+}
+
+button:hover{
+    background-color: rgb(1, 78, 126);
+    color: white;
+}
+
+header{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+#info{
+    margin: 100px 300px;
+    /* border: 2px solid black; */
+    padding: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#info1{
+ /* border: 2px solid black; */
+ /* margin:100px ; */
+ 
+ padding: 80px 60px;
+ align-items: start;
+}
+
+#img{
+    
+    display: flex;
+    padding:0%;
+    /* margin:0px 100px; */
+    margin-right: 200px;
+}
+
+#img1{
+    width:300px;
+    height:500px;
+    margin: 10px;
+}
+
+#img1:hover{
+    transform: scale(105%);
+    overflow: hidden;
+}
+#btn2{
+background-color:rgb(0, 102, 133);
+color: white;
+
+}
+#btn2:hover{
+    background-color: rgb(2, 2, 70);
+}
+
+#info2{
+    margin: 100px;
+    /* border: 2px solid black; */
+    padding: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#info2-1{
+    /* border: 2px solid black; */
+    text-align: center;
+
+    flex-direction: row;
+    /* border: 2px solid black; */
+    padding:50px 10px ;
+
+   }
+
+
+   #img2{
+    width:300px;
+    height:500px;
+    margin: 10px;
+}
+
+#img2:hover{
+    transform:10px;
+}
